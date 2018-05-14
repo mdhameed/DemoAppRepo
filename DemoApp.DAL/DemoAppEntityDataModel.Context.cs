@@ -14,6 +14,7 @@ namespace DemoApp.DAL
     using System.Data.Entity.Infrastructure;
     using System.Data.Entity.Core.Objects;
     using System.Linq;
+    using DemoApp.DTO;
     
     public partial class DemoAppDBContext : DbContext
     {

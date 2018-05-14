@@ -137,5 +137,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApp.DTO\DemoApp.DTO.csproj">
+      <Project>{a0d89642-2a43-491e-a5a4-0a69a609409e}</Project>
+      <Name>DemoApp.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
